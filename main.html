@@ -6,11 +6,20 @@
 </head>
 <body>
     <div id="myDIV" class="header">
+        <div>
         <h2 style="margin:5px">My To Do List</h2>
         <form  action="#">
-            <input type="text" id="myInput" placeholder="Add New">
-        </form>  
-        <span class="addBtn">Add</span>
+            <input type="text" id="myInput" placeholder="Add New"/>
+            <input type='submit' class="addBtn" value="Add"></input>
+        </form>
+         </div>
+        <div>
+        <button  id='all' class="addBtn">All</button>
+        <button  id='completed' class="addBtn">Completed</button>
+        <button  id='notCompleted' class="addBtn">Not Completed</button>
+        <button  id='deleteAll' class="addBtn">Delete all</button>
+        </div>
+        <!-- <span class="addBtn">Add</span> -->
     </div>
       
     <ul id="myUL">

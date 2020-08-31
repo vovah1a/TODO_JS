@@ -88,3 +88,7 @@
   .addBtn:hover {
     background-color: #bbb;
   }
+  .cross{
+    color: red;
+    float: right;
+  }
